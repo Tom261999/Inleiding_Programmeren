@@ -1,0 +1,67 @@
+\documentclass[a4paper,11pt]{article}
+%-----------
+\usepackage{lipsum}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{placeins}
+\usepackage{a4wide}
+\usepackage[dutch]{babel}
+\usepackage{multicol}
+\usepackage[makeroom]{cancel}
+\usepackage{enumerate}
+\usepackage{lscape}
+\usepackage{caption}
+\usepackage[labelfont=bf]{caption}
+\usepackage{hyperref}
+%-----------
+%\usepackage{listings}
+%\renewcommand{\lstlistingname}{Matlab output}
+%-----------
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%-----------
+\title{\vspace{-75pt}Inleiding Programmeren: Opdracht 1\vspace{-10}}
+\date{\vspace{-10pt}25-02-2019}
+\author{Stoops Tom \\ 2 Ba Fysica}
+%-----------
+\newcommand{\paf}[2]{\frac{\partial #1}{\partial #2}_{\bigg{|}_\big{#2}}}
+%syntax: \partaf{A}{x} is partiele afgeleide van A naar x geevalueerd in x
+\newcommand{\prop}[2]{s_{#2}^2\cdot\left(\paf{#1}{#2}\right)^2}
+%syntax: analoog aan partaf, maar dan voor de propagatieformule (enkel sommeren erover en onder een wortel plaatsen: s_x = \sqrt{\prop{A}{a}+\prop{B}{b}+\ldots}
+\renewcommand{\thefootnote}{\Roman{footnote}}
+%\renewcommand{\phi}{\varphi}
+\newcommand{\af}[3]{\frac{d^{#1}#2}{d {#3}^{#1}}}
+%syntax: \af{4}{y}{x} is de 4de afgeleide van y naar x, voor 1ste afgeleide de eerste {} gewoon leeg laten!
+\newcommand{\ste}{$^\mathrm{ste}\ $}
+\newcommand{\de}{$^\mathrm{de}\ $}
+%syntax: gewoon achter getal plaatsen
+\newcommand{\p}[1]{\left(#1\right)}
+\newcommand{\s}[1]{\left[#1\right]}
+\newcommand{\avg}[1]{\left\langle#1\right\rangle}
+\newcommand{\ta}{$\pm$}
+\newcommand{\cirkel}[1]{\raisebox{.5pt}{\textcircled{\raisebox{-1.1pt} {#1}}}}
+\let\oldexp\exp
+\renewcommand{\exp}[1]{\oldexp\p{#1}}
+\newcommand{\exps}[1]{\oldexp\s{#1}}
+\newcommand{\abs}[1]{\left|#1\right|}
+%-----------
+%\captionsetup{width=0.8\textwidth}
+%-----------
+\begin{document}
+\pagenumbering{arabic}
+\maketitle
+
+\noindent
+Volgende grafieken werden gevonden bij het runnen van functie \texttt{root2alt} om $\sqrt{100}$ te bepalen, met tolerantie $\epsilon = 0.01$ en startwaarden 50 en 1 respectievelijk.
+
+\FloatBarrier
+\begin{figure}[ht!]
+  \includegraphics[width = \textwidth]{verwerking.eps}
+  \caption{Gevonden waarden i.f.v. de iteratie met 2\de graads fit.}
+  \label{intensiteit}
+\end{figure}
+\FloatBarrier
+
+\end{document}

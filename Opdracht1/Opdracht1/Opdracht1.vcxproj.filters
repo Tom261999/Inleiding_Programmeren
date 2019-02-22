@@ -18,7 +18,7 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roots.h">
+    <ClInclude Include="roots_TomStoops.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,10 +26,10 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Opdracht1.cpp">
+    <ClCompile Include="roots_TomStoops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roots.cpp">
+    <ClCompile Include="Opdracht1_TomStoops.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
