@@ -1,0 +1,4 @@
+﻿  Theorie2.cpp
+d:\inleiding programeren local\theorie2\theorie2\theorie2\theorie2.cpp(139): error C2632: 'int' followed by 'int' is illegal
+d:\inleiding programeren local\theorie2\theorie2\theorie2\theorie2.cpp(139): error C2513: 'int': no variable declared before '='
+d:\inleiding programeren local\theorie2\theorie2\theorie2\theorie2.cpp(140): error C2062: type 'int' unexpected

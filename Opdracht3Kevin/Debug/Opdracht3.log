@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Dice.cpp
+c:\users\tomst\desktop\kevindice\dice.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tomst\desktop\kevindice\dice.cpp(137): warning C4018: '<': signed/unsigned mismatch
+  Opdracht3.cpp
+  Generating Code...
+  Opdracht3.vcxproj -> C:\Users\Tomst\Desktop\KevinDice\Debug\Opdracht3.exe

@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  Bar_TomStoops.cpp
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(51): warning C4018: '<': signed/unsigned mismatch
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(69): warning C4018: '<': signed/unsigned mismatch
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(87): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(88): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(138): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\bar_tomstoops.cpp(139): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Opdracht4_TomStoops.cpp
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\opdracht4_tomstoops.cpp(15): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\opdracht4_tomstoops.cpp(37): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\inleiding programeren local\opdracht4\opdracht4_tomstoops\opdracht4_tomstoops\opdracht4_tomstoops.cpp(61): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  Opdracht4_TomStoops.vcxproj -> D:\Inleiding Programeren Local\Opdracht4\Opdracht4_TomStoops\Debug\Opdracht4_TomStoops.exe

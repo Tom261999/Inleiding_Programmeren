@@ -1,0 +1,7 @@
+﻿  Bar.cpp
+d:\inleiding programeren local\opdracht4silke\opdracht4\bar.cpp(181): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\inleiding programeren local\opdracht4silke\opdracht4\bar.cpp(182): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\inleiding programeren local\opdracht4silke\opdracht4\bar.cpp(183): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\inleiding programeren local\opdracht4silke\opdracht4\bar.cpp(185): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+d:\inleiding programeren local\opdracht4silke\opdracht4\bar.cpp(190): warning C4018: '<': signed/unsigned mismatch
+  Opdracht4.vcxproj -> D:\Inleiding Programeren Local\Opdracht4Silke\Debug\Opdracht4.exe
